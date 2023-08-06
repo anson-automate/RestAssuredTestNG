@@ -27,7 +27,7 @@ public class AppTest
         //In this case the request does not take any parameters 
         Response response = httpRequest.request(Method.GET, "/Books");
         // Print the status and message body of the response received from the server 
-        Reporter.log("Status received => " + response.getStatusLine()); 
+        //Reporter.log("Status received => " + response.getStatusLine()); 
         Reporter.log("Response=>" + response.prettyPrint());
 }
 
